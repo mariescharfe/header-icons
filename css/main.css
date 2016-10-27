@@ -7,3 +7,64 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.left {
+  float: left;
+  width: 40px;
+  margin-top: .3rem;
+  margin-left: .3rem;
+}
+
+.right {
+  float: right;
+  width: 40px;
+  margin-top: .3rem;
+  margin-right: .3rem;
+}
+
+header {
+  background-color: #d05c2e;
+}
+
+h1 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: .4rem 0;
+}
+
+li {
+  border-top: 1px solid #a63f38;
+  border-bottom: 1px solid #a63f38;
+  border-right: 1px solid #a63f38;
+  float: left;
+  width: 33.3333%;
+  background-color: #d05c2e;
+  list-style-type: none;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.125rem;
+  margin: 0 0 .7rem;
+  padding: .5em 0 0;
+}
+
+li:hover, a:hover {
+  background-color: #a63f38;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
